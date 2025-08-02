@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+      font-family: 'poppnis', sans-serif;
+}
+.container{
+    max-width: 1350px;
+    margin: auto;
+
+}
+.navbar-main{
+    background-color: aqua;
+    border-radius: 15px;
+    border: none;
+}
+.ul-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+  color: #999;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: 'poppnis', sans-serif;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background: blue;
+    width: 100%;
+    border-radius: 5px;
+    z-index: 1;
+    color: #f3f3f3;
+    text-align: center;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li {
+    padding: 10px;
+    border: 1px solid white;
+    color: #e7e7e7;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.menu ul li:hover {
+    background: #555;
+}
+ #menu-toggle:checked+.menu-icon+.menu {
+        display: none;
+    }
+       .menu-icon{
+        display: none;
+    }
+    .jj{
+        display: none;
+    }
+    .main-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 10px;
+}
+.sect{
+    padding-top: 90px;
+}
+  @media (max-width: 768px){
+    .ul-list{
+        display: none;
+    }
+   
+       #menu-toggle:checked+.menu-icon+.menu {
+        display: block;
+  }
+   .menu-icon {
+        display: block;
+    }
+    #signin{
+        display: none;
+    }
+  }
+

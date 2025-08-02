@@ -1,0 +1,10 @@
+.footer-list{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

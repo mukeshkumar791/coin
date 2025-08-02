@@ -1,0 +1,153 @@
+#signin {
+    background-color: #16d5ff;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 7px;
+    font-family: 'poppins', sans-serif;
+    color: #f2f8fe;
+    font-weight: 900;
+    font-size: 20px;
+}
+.invest-heading {
+    font-size: 52px;
+}
+.about {
+    animation: mover 2s infinite alternate;
+    width: 100%;
+}
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+.invest-part {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.crypto {
+    color: aqua;
+}
+.invest-text {
+    align-self: center;
+    text-align: center;
+}
+/* p {
+    /* color: #e5eaf0; */
+/* }  */
+
+.BTN-MORE {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 11px;
+    background-color: #16d5ff;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+}
+.what-is {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.worls-and-text {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: start;
+}
+h5 {
+    color: #16d5ff;
+    line-height: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+}
+.h4 {
+    font-family: 'poppnis', sans-serif;
+    font-size: 22px;
+    line-height: 0px;
+}
+.rightpng{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.right-lorem{
+    display: flex;
+    align-items: center;
+}
+.list{
+    list-style: none;
+}
+.carrds-items{
+    width: 350px;
+    background-color: aqua;
+}
+.all-cards-item{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.team-img{
+    border: 2px solid;
+    border-radius: 50%;
+}
+.card-team-body{
+    max-width: 591px;
+  min-width: 580px;
+}
+.card-part{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.card-father{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    .invest-part {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .invest-text {
+        align-self: anchor-center;
+        text-align: center;
+    }
+    .what-is {
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    font-size: 16px;
+}
+.works{
+    width: 300px;
+}
+.worls-and-text{
+    flex-wrap: wrap;
+}
+.about{
+    width: 500px;
+}
+}
+  @media (max-width: 591px) {
+    .about{
+        width: 300px;
+    }
+    .invest-heading{
+        font-size: 29px;
+    }
+  }
